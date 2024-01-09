@@ -123,7 +123,7 @@ jQuery(document).ready(function($) {
 	// siteSliderRange();
 
 
-	var siteMagnificPopup = function() {
+	var siteMagnificPopup = function($) {
 		$('.image-popup').magnificPopup({
 	    type: 'image',
 	    closeOnContentClick: true,
